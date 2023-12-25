@@ -1,11 +1,15 @@
 .header {
-    font-size: 2.5em; /* Larger size */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font */
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 0;
-    padding-top: 50px; /* Adjust for vertical centering */
-    background-color: #333; /* Optional background color */
-    color: white; /* Text color for contrast */
+    padding-top: 50px;
+    color: white;
+    background-color: #333; /* You can remove this if the banner covers the entire header */
+    background-image: url('images\Banner.png'); /* Path to your banner image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .navbar {
@@ -37,3 +41,4 @@
 .navbar a:hover {
     color: #ddd; /* Subtle hover effect */
 }
+
